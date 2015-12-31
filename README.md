@@ -16,7 +16,7 @@ User can enter a bill amount, choose a tip percentage, and see the tip and total
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/w7Bu106' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/w7Bu106' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
