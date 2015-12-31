@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		702854E31C35896700D6E477 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702854E21C35896700D6E477 /* SettingViewController.swift */; };
 		706BDE871C33754500A0A524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BDE861C33754500A0A524 /* AppDelegate.swift */; };
 		706BDE891C33754500A0A524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BDE881C33754500A0A524 /* ViewController.swift */; };
 		706BDE8C1C33754500A0A524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706BDE8A1C33754500A0A524 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		702854E21C35896700D6E477 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		706BDE831C33754500A0A524 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706BDE861C33754500A0A524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		706BDE881C33754500A0A524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		706BDE7A1C33754500A0A524 = {
 			isa = PBXGroup;
 			children = (
+				702854E21C35896700D6E477 /* SettingViewController.swift */,
 				706BDE851C33754500A0A524 /* tips */,
 				706BDE9A1C33754500A0A524 /* tipsTests */,
 				706BDEA51C33754500A0A524 /* tipsUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				706BDE891C33754500A0A524 /* ViewController.swift in Sources */,
 				706BDE871C33754500A0A524 /* AppDelegate.swift in Sources */,
+				702854E31C35896700D6E477 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = project.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = project.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +488,7 @@
 				706BDEAD1C33754500A0A524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		706BDEAE1C33754500A0A524 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				706BDEB01C33754500A0A524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		706BDEB11C33754500A0A524 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				706BDEB31C33754500A0A524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
